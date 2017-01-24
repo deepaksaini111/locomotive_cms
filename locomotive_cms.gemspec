@@ -18,20 +18,21 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rake',                            '~> 10.5.0'
 
-  s.add_dependency 'rails',                           '~> 5.0.0', '>= 5.0.0.1'
+  s.add_dependency 'rails',                           '~> 5.0.0.1'
 
   s.add_dependency 'net-ssh',                         '~> 3.0.2'
 
-  s.add_dependency 'devise',                          '~> 4.2.0'
+  s.add_dependency 'devise',                          '~> 3.5.1'
   s.add_dependency 'devise-encryptable',              '~> 0.2.0'
   s.add_dependency 'simple_token_authentication',     '~> 1.12.0'
 
   s.add_dependency 'pundit',                          '~> 1.1.0'
 
-  s.add_dependency 'mongoid',                         '~> 6.0.3'
+  s.add_dependency 'mongoid',                         '~> 5.1.3'
   s.add_dependency 'mongoid-tree',                    '~> 2.0.1'
   s.add_dependency 'mongo_session_store-rails4',      '~> 6.0.0'
 
+  s.add_dependency 'custom_fields',                   '~> 2.8.0'
   s.add_dependency 'locomotivecms_steam',             '~> 1.3.0'
 
   s.add_dependency 'slim',                            '~> 3.0.6'
