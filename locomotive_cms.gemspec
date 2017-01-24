@@ -16,7 +16,58 @@ Gem::Specification.new do |s|
   s.summary     = 'A platform to create, publish and edit sites'
   s.description = 'Locomotive is designed to save your time and help you focus on what matters: front-end technology, standard development process and no learning time for your client.'
 
-  
+  s.add_dependency 'rake',                            '~> 10.5.0'
+
+  s.add_dependency 'rails',                           '~> 5.0.0', '>= 5.0.0.1'
+
+  s.add_dependency 'net-ssh',                         '~> 3.0.2'
+
+  s.add_dependency 'devise',                          '~> 4.2.0'
+  s.add_dependency 'devise-encryptable',              '~> 0.2.0'
+  s.add_dependency 'simple_token_authentication',     '~> 1.12.0'
+
+  s.add_dependency 'pundit',                          '~> 1.1.0'
+
+  s.add_dependency 'mongoid',                         '~> 6.0.3'
+  s.add_dependency 'mongoid-tree',                    '~> 2.0.1'
+  s.add_dependency 'mongo_session_store-rails4',      '~> 6.0.0'
+
+  s.add_dependency 'locomotivecms_steam',             '~> 1.3.0'
+
+  s.add_dependency 'slim',                            '~> 3.0.6'
+  s.add_dependency 'simple_form',                     '~> 3.2.0'
+  s.add_dependency 'kaminari',                        '~> 0.16.3'
+  s.add_dependency 'bootstrap-kaminari-views',        '~> 0.0.5'
+  s.add_dependency 'responders',                      '~> 2.1.0'
+  s.add_dependency 'rails-i18n',                      '~> 4.0.6'
+
+  s.add_dependency 'jquery-rails',                    '~> 4.1.0'
+  s.add_dependency 'jquery-ui-rails',                 '~> 5.0.3'
+  s.add_dependency 'codemirror-rails',                '~> 5.6'
+  s.add_dependency 'flash_cookie_session',            '~> 1.1.1'
+  s.add_dependency 'bootstrap-sass',                  '~> 3.3.6'
+  s.add_dependency 'autoprefixer-rails',              '~> 6.3.3.1'
+
+  s.add_dependency 'font-awesome-sass',               '~> 4.5.0'
+  s.add_dependency 'nprogress-rails',                 '~> 0.1.6.7'
+
+  s.add_dependency 'highline',                        '~> 1.7.1'
+  s.add_dependency 'bazaar',                          '~> 0.0.2'
+  s.add_dependency 'json-schema',                     '~> 2.6.1'
+
+  s.add_dependency 'carrierwave-mongoid',             '~> 0.8.1'
+  s.add_dependency 'dragonfly',                       '~> 1.0.7'
+  s.add_dependency 'rack-cache',                      '~> 1.1'
+  s.add_dependency 'mime-types',                      '~> 2.6.2'
+  s.add_dependency 'mimetype-fu',                     '~> 0.1.2'
+
+  s.add_dependency 'multi_json',                      '~> 1.11.0'
+  s.add_dependency 'actionmailer-with-request',       '~> 0.4.0'
+
+  s.add_dependency 'grape',                           '~> 0.12.0'
+  s.add_dependency 'grape-entity',                    '0.4.5'
+
+  s.add_development_dependency "faye-websocket"
 
   s.files        = Dir[ 'Gemfile',
                         '{app}/**/*',
