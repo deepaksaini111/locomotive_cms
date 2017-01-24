@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rake',                            '~> 10.5.0'
 
-  s.add_dependency 'rails',                           '~> 5.0.0.1'
+  s.add_dependency 'rails',                           '~> 5.0.0', '>= 5.0.0.1'
 
   s.add_dependency 'net-ssh',                         '~> 3.0.2'
 
-  s.add_dependency 'devise',                          '~> 3.5.1'
+  s.add_dependency 'devise',                          '~> 4.2.0'
   s.add_dependency 'devise-encryptable',              '~> 0.2.0'
   s.add_dependency 'simple_token_authentication',     '~> 1.12.0'
 
